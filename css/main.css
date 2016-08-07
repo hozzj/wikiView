@@ -1,0 +1,46 @@
+/** Container **/
+
+body {
+    background: #406661;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 20px auto;
+    text-align: center;
+    background: #F5F5F5;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.title {
+    border-bottom: 1px #B5CFD8 solid;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+}
+
+/* Search area */
+
+.input-group {
+    max-width: 500px;
+    margin: auto;
+}
+
+.rand {
+    margin-top: 10px;
+}
+
+/* Results */
+
+.result {
+    text-align: left;
+    list-style: none;
+    padding: 5px 15px;
+    background-color: #fff;
+    margin-bottom: 10px;
+    border-left: 3px #fff solid;
+}
+
+.result:hover {
+    border-left: 3px red solid;
+}
